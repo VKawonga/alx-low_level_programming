@@ -1,7 +1,10 @@
 #include <stdio.h>
 
 /**
- * prints "Programming is like building a multilingual puzzle
+ * main - prints string using puts
+ *
+ * Description: Prints out string assigned to mystr[] using puts function
+ * Return: "Programming is like building a multilingual puzzle
  */
 int main(void)
 {
