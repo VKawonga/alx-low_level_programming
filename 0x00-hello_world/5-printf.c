@@ -1,5 +1,5 @@
 #include <stdio.h>
-i
+
 /** printf - prints specified string
  *
  * Description:prts\"with proper grammar, but the outcome is a piece of art,\"
