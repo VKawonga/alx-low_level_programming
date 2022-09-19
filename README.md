@@ -1,1 +1,2 @@
-0-preprocessor prints to c the result from sending a file to the preprocesser
+0-positive_or_negative.c print whether the number
+stored in the variable n is positive or negative
