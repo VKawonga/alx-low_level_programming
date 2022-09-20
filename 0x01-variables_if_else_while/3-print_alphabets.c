@@ -13,7 +13,7 @@ int main(void)
 
 {
 	int ch = 'a';
-	int mb = 'A'; 
+	int mb = 'A';
 
 	for (ch = 'a' ; ch <= 'z' ; ch++)
 	{
