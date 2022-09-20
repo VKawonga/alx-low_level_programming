@@ -4,7 +4,7 @@
 /**
  * main - prints all numbers in base 16
  *
- * Description: prints all the numbers of base 16 in lowercase, 
+ * Description: prints all the numbers of base 16 in lowercase,
  * ifollowed by a new line.
  *
  * Return: 0
