@@ -11,7 +11,10 @@
 int main(void)
 
 {
-	putchar('abcdefghijklmnopqrstuvwxyz');
-	putchar('\n');
-
+	int ch = 'a';
+	for (ch = 'a' ; ch <= 'z' ; ch++)
+	{
+		putchar(ch);
+	}
+        return (0);
 }
