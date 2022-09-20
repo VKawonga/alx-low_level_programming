@@ -17,10 +17,10 @@ int main(void)
 	{
 		for (ch = 'a' ;  ch <= 'z' ; ch++)
 		{
-			if (ch != 'q' || ch != 'e')
+			for (ch != 'q' || ch != 'e' ; ch <= 'z' ; ch++)
 			{
 				putchar(ch);
-				continue;
+				
 			}
 		}
 	}
