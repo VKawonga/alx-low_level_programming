@@ -10,14 +10,14 @@
  */
 int main(void)
 
-{	
+{
 	int ch = 'a';
+
 	for (ch = 'a' ; ch <= 'z' ; ch++)
 	{
 		int putchar(int ch);
+		putchar ('\n');
 	}
-
-        putchar ('\n');
 
 	return (0);
 
