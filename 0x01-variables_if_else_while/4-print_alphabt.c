@@ -17,11 +17,13 @@ int main(void)
 	{
 		for (ch = 'a' ;  ch <= 'z' ; ch++)
 		{
-			for (ch = 'a' ; ch != 'q' ; ch != 'e')
+			if (ch = 'q' || 'e')
 			{
-				putchar(ch);
+				continue;
 				
 			}
+
+			putchar(ch);
 		}
 	}
 	putchar('\n');
