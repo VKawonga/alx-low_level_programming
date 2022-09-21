@@ -16,13 +16,7 @@ int main(void)
 
 	for (ch = 'a' ; ch <= 'z' ; ch++)
 	{
-		if (ch = 'q')
-		{
-			if (ch = 'e')
-			{
-				continue;
-			}
-		}
+		for ( ; ch != 'q' ; ch != 'e')
 		putchar(ch);
 	}
 	putchar('\n');
