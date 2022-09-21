@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+#include </alx-low_level_programming/0x02-functions_nested_loops/main.h>
 /**
  * main - prints _putchar
  *
@@ -8,17 +9,10 @@
  *
  * Return: 0
  */
-int main(void)
+int vk1(void)
 
 {
-	int ch = 'a';
-
-	for (ch = 'a' ; ch <= 'z' ; ch++)
-	{
-		putchar(ch);
-	}
-
-	putchar('\n');
+	_putchar('_putchar')
 
 	return (0);
 }
