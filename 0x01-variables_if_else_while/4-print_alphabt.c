@@ -16,8 +16,13 @@ int main(void)
 
 	for (ch = 'a' ; ch <= 'z' ; ch++)
 	{
-		for ( ; ch != 'q' ; ch != 'e')
-		putchar(ch);
+		for ( ; ch != 'q' ; )
+		{
+			for ( ; ch != 'e' ; )
+			{
+				putchar(ch);
+			}
+		}
 	}
 	putchar('\n');
 
