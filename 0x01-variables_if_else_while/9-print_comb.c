@@ -19,7 +19,7 @@ int main(void)
 		putchar(ch);
 		putchar(',');
 		putchar('\b');
-		ch++
+		ch++;
 	}
 
 
