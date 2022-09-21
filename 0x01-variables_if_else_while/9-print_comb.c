@@ -18,10 +18,11 @@ int main(void)
 	{
 		putchar(ch);
 		putchar(',');
-		ch++;
+		putchar('\b');
+		ch++
 	}
 
-	putchar('9');
+
 	putchar('\n');
 	return (0);
 }
