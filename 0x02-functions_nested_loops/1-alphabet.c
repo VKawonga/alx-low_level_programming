@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-#include <main.h>
 /**
  * print_alphabet - prints the alphabet 
  *
@@ -12,12 +11,12 @@
 void print_alphabet(void);
 
 {
-	int c ='a';
+	char c ='a';
 
 	for (c = 'a' ; c <= 'z' ; c++)
 	{
 		_putchar(c);
 	}
 	_putchar('\n');
-	return (0);
+	return ;
 }
