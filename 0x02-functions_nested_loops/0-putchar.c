@@ -2,13 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * vk1 - prints _putchar
+ * main - prints _putchar
  *
  * Description: Prints _putchar using putchar
  *
  * Return: 0
  */
-int vk1(void)
+int main(void)
 
 {
 	putchar('_');
