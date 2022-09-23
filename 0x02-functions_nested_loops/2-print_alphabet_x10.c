@@ -9,7 +9,7 @@
 char print_alphabet_x10(void)
 {
 	int mb = '0';
-	c = 'a';
+	char c = 'a';
 
 	for (mb = '0' ; mb <= '9' ; mb++)
 	{
