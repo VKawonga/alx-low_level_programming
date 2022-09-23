@@ -7,7 +7,7 @@
  *
  * Return: 1
  */
-int _islower(int c);
+int _islower(int c)
 {
 	unsigned char mb = int c;
 	islower(mb);
