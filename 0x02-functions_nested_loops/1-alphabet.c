@@ -7,9 +7,9 @@
  *
  * Return: 
  */
-char print_alphabet()
+int print_alphabet()
 {
-	char c = 'a';
+	int c = 'a';
 
 	for (c = 'a' ; c <= 'z' ; c++)
 	{
