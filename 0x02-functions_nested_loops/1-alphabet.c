@@ -7,7 +7,7 @@
  *
  * Return: 
  */
-print_alphabet();
+char print_alphabet();
 {
 	char c = 'a';
 
