@@ -16,5 +16,5 @@ char print_alphabet()
 		_putchar(c);
 	}
 	_putchar('\n');
-	return ;
+	return(0);
 }
