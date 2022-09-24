@@ -11,12 +11,12 @@
 int _islower(int c)
 {
 	islower(c);
-	if ((islower (c)) > '0');
+	if ((islower (c)) > '0')
 	{
 		return (1);
 	}
 
-	else;
+	else
 	{
 		return (0);
 	}
