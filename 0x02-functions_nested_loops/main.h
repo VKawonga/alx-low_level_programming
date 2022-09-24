@@ -11,4 +11,4 @@ char print_alphabet(void);
 char print_alphabet_x10(void);
 int _islower(int c); 
 int _isalpha(int c);
-int print_sign(int n);
+unsigned int print_sign(unsigned int n);
