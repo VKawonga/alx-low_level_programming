@@ -10,8 +10,8 @@
  */
 int _islower(int c)
 {
-	islower(unsigned c);
-	if (islower (unsigned c) > 0);
+	islower(c);
+	if (islower (c) > 0);
 	{
 		return (1);
 	}
