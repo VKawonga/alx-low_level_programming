@@ -9,7 +9,6 @@
  */
 int _islower(int c)
 {
-	unsigned char mb = int c;
-	islower(mb);
+	islower(c);
 	return (1); 
 }
