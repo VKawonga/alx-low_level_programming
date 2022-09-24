@@ -14,13 +14,13 @@ char jack_bauer(void)
 	int k = '0';
 	int l = '0';
 
-	while (i <= '2')
+	for ( ; i <= '2' ; i++)
 	{
-		while (j <= '9')
+		for ( ; j <= '9' ; j++)
 		{
-			while (k <= '6')
+			for ( ; k <= '6' ; k++)
 			{
-				while (l <= '9')
+				for ( ; l <= '9' ; l++)
 				{
 					_putchar(i);
 					_putchar(j);
@@ -28,7 +28,6 @@ char jack_bauer(void)
 					_putchar(k);
 					_putchar(l);
 					_putchar('\n');
-					l++;
 				}
 				
 			}
