@@ -14,5 +14,5 @@ char print_last_digit(char a)
 
 	c = a % 10;
 	_putchar(c);
-	return (mb);
+	return (c);
 }
