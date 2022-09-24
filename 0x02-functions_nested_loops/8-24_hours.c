@@ -9,7 +9,7 @@
  */
 char jack_bauer(void)
 {
-	int i = '0' , j , k , l;
+	int i = '0';
 
 	while (i <= '2')
 	{
