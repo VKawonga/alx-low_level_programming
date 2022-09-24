@@ -10,16 +10,16 @@
 char jack_bauer(void)
 {
 	int i = '0';
+	int j = '0';
+	int k = '0';
+	int l = '0';
 
 	while (i <= '2')
 	{
-		int j = '0';
 		while (j <= '9')
 		{
-			int k = '0';
 			while (k <= '6')
 			{
-				int l = '0';
 				while (l <= '9')
 				{
 					_putchar(i);
