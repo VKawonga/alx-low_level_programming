@@ -10,7 +10,7 @@
  *
  * Return: 1 0 or -1
  */
-unsigned int print_sign(unsigned int n)
+int print_sign(int n)
 {
 	if ((n > '0'))                                                                                                      
 	{
