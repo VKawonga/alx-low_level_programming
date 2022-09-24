@@ -23,18 +23,12 @@ char jack_bauer(void)
 				while (l <= '9')
 				{
 					_putchar(l);
+					_putchar(k);
+					_putchar(':');
+					_puthcar(j);
+					_putchar(l);
 					_putchar('\n');
-					l++;
-				}
-				_putchar(k);
-				k++;
-			}
-			_putchar(j);
-			j++;
-		}
-		_putchar(i);
-		i++;
+					l++
 	}
-	_putchar('\n');
 	return (0);
 }
