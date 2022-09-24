@@ -13,6 +13,6 @@ char print_last_digit(char a)
 	char c;
 
 	c = a % 10;
-	_putchar(c);
+	_putchar(c + '0');
 	return (c);
 }
