@@ -2,7 +2,7 @@
 
 /**
  * print_sign - prints the sign of a number.
- * @c: the character to be checked
+ * @n: the character to be checked
  *
  * Description - Returns 1 and prints + if n is greater than zero
  * Returns 0 and prints 0 if n is zero
@@ -10,7 +10,7 @@
  *
  * Return: 1 0 or -1
  */
-int print_sign(int n)
+signed int print_sign(signed int n)
 {
 	if (n > '0')
 	{
@@ -22,12 +22,12 @@ int print_sign(int n)
 	{
 		_putchar('0');
 		return (0);
-	}	
+	}
 
-	else if (( n < '0'))
+	else if ((n < '0'))
 	{
 		_putchar('-');
-		return -1;
+		return (-1);
 	}
 
 }
