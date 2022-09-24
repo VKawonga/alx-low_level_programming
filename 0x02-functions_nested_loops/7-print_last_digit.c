@@ -13,6 +13,6 @@ int print_last_digit(int a)
 	char mb;
 
 	mb = a % 10;
-	_putchar(mb);
+	putchar(mb);
 	return (mb);
 }
