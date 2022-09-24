@@ -9,18 +9,15 @@
  */
 char jack_bauer(void)
 {
-	int i = '0';
-	int j = '0';
-	int k = '0';
-	int l = '0';
+	int i, j, k, l;
 
-	for ( ; i <= '2' ; i++)
+	for (i = '0' ; i <= '2' ; i++)
 	{
-		for ( ; j <= '9' ; j++)
+		for (j = '0' ; j <= '9' ; j++)
 		{
-			for ( ; k <= '6' ; k++)
+			for (k = '0' ; k <= '6' ; k++)
 			{
-				for ( ; l <= '9' ; l++)
+				for (l = '0' ; l <= '9' ; l++)
 				{
 					_putchar(i);
 					_putchar(j);
