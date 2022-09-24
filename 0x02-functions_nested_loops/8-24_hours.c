@@ -1,17 +1,40 @@
 #include "main.h"
 
 /**
- * jack_bauer - prints
- * @a: the integer whose absolute value is to be calculated
+ * jack_bauer - prints every minute of the day of Jack Bauer
  *
- * Description - computes the absolute value of an integer.
+ * Description - prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
  *
- * Return: absolute value of a 
+ * Return: 0
  */
-int _abs(int a)
+char jack_bauer(void)
 {
-	int absval;
+	int i = '0';
+	int j = '0';
+	int k = '0';
+	int l = '0';
 
-	absval = abs(a);
-	return (absval);
+	while (i <= '9')
+	{
+		while (j <= '9')
+		{
+			while (k <= '9')
+			{
+				while (l <= '9')
+				{
+					_putchar(l);
+					l++;
+				}
+				_putchar(k);
+				k++
+			}
+	
+			_putchar(j);
+			j++;
+		}
+		_putchar(i);
+		i++;
+	}
+
+	return (0);
 }
