@@ -10,7 +10,7 @@
  *
  * Return: 1 0 or -1
  */
-signed int print_sign(signed int n)
+int print_sign(int n)
 {
 	if (n > '0')
 	{
@@ -24,7 +24,7 @@ signed int print_sign(signed int n)
 		return (0);
 	}
 
-	else if ((n < '0'))
+	else if ((n >= '0'))
 	{
 		_putchar('-');
 		return (-1);
