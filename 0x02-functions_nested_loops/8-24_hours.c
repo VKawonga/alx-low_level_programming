@@ -27,17 +27,14 @@ char jack_bauer(void)
 					l++;
 				}
 				_putchar(k);
-				_putchar('\n');
 				k++;
 			}
 			_putchar(j);
-			_putchar('\n');
 			j++;
 		}
 		_putchar(i);
-		_putchar('\n');
 		i++;
 	}
-
+	_putchar('\n');
 	return (0);
 }
