@@ -7,7 +7,7 @@
  * Description -_islower prints whether or not a character is lower case or not
  * using islower function
  *
- * Return: On success _islower returns 1 
+ * Return: On success _islower returns 1
  * Onerror returns 0
  */
 int _islower(int c)
