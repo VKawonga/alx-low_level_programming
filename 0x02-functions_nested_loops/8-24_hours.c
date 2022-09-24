@@ -22,10 +22,10 @@ char jack_bauer(void)
 				int l = '0';
 				while (l <= '9')
 				{
-					_putchar(l);
-					_putchar(k);
-					_putchar(':');
+					_putchar(i);
 					_putchar(j);
+					_putchar(':');
+					_putchar(k);
 					_putchar(l);
 					_putchar('\n');
 					l++;
