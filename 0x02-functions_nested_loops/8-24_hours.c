@@ -40,4 +40,4 @@ char jack_bauer(void)
 	}
 
 	return (0);
-iii}
+}
