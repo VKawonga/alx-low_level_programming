@@ -9,6 +9,6 @@
  */
 int _abs(int)
 {
-	abs();
-	return (0)
+	abs(int);
+	return (0);
 }
