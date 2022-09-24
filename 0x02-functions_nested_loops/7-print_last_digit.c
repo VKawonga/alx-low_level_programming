@@ -12,7 +12,7 @@ char print_last_digit(char a)
 {
 	char mb;
 
-	mb = char (a % 10);
+	mb = a % 10;
 	_putchar(mb);
 	return (mb);
 }
