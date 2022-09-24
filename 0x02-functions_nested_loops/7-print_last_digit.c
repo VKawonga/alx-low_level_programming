@@ -10,9 +10,9 @@
  */
 int print_last_digit(int a)
 {
-	int mb;
+	char mb;
 
 	mb = a % 10;
-	_putchar('mb');
+	_putchar(mb);
 	return (mb);
 }
