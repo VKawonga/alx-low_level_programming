@@ -8,11 +8,11 @@
  *
  * Return: the last digit of an integer.
  */
-int print_last_digit(int a)
+char print_last_digit(char a)
 {
 	char mb;
 
-	mb = a % 10;
-	putchar(mb);
+	mb = char (a % 10);
+	_putchar(mb);
 	return (mb);
 }
