@@ -25,10 +25,10 @@ char jack_bauer(void)
 					_putchar(l);
 					_putchar(k);
 					_putchar(':');
-					_puthcar(j);
+					_putchar(j);
 					_putchar(l);
 					_putchar('\n');
-					l++
+					l++;
 	}
 	return (0);
 }
