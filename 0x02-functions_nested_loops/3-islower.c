@@ -5,7 +5,7 @@
  * Description - _islower prints whether or not a character is lower case or not
  * using islower function
  *
- * Return: 1
+ * Returns: 1
  */
 int _islower(int c);
 {
