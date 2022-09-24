@@ -9,6 +9,6 @@
  */
 int _islower(int c)
 {
-	int islower(c);
+	islower(c);
 	return (0); 
 }

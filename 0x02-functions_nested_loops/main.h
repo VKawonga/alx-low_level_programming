@@ -8,7 +8,6 @@
  */
 
 int _islower(int c);
-int islower(int c);
 int _putchar(char c);
 char print_alphabet(void);
 char print_alphabet_x10(void);
