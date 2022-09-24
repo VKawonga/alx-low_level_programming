@@ -7,8 +7,8 @@
  *
  * Returns: 1
  */
-int _islower(int c);
+int _islower(int c)
 {
-	islower(c);
+	int islower(c);
 	return (1); 
 }
