@@ -26,9 +26,8 @@ char jack_bauer(void)
 					l++;
 				}
 				_putchar(k);
-				k++
+				k++;
 			}
-	
 			_putchar(j);
 			j++;
 		}
