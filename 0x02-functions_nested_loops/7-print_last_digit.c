@@ -8,9 +8,9 @@
  *
  * Return: the last digit of an integer.
  */
-char print_last_digit(char a)
+int print_last_digit(int a)
 {
-	char c;
+	int c;
 
 	c = a % 10;
 	_putchar(c + '0');
