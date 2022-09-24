@@ -29,6 +29,9 @@ char jack_bauer(void)
 					_putchar(l);
 					_putchar('\n');
 					l++;
+				}
+			}
+		}
 	}
 	return (0);
 }
