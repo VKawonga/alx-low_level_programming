@@ -16,8 +16,9 @@ char times_table(void)
 		{
 			int a = i * j;
 
-			_putchar(a);
+			_putchar(a + '0');
 			_putchar(',');
+			_putchar(' ');
 		}
 		_putchar('\n');
 	}
