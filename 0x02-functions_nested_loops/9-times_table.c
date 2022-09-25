@@ -16,7 +16,7 @@ char times_table(void)
 		{
 			char a = (i * j);
 
-			_putchar(a + '0');
+			_putchar('a');
 			_putchar(',');
 			_putchar(' ');
 		}
