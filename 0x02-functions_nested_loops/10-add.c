@@ -2,6 +2,7 @@
 
 /**
  * add - adds two integers
+ * @a and @b: integers to be summed
  * Description - adds two integers and returns the result.
  *
  * Return: sum of two integers
