@@ -14,9 +14,7 @@ char times_table(void)
 	{
 		for (j = '0' ; j <= '9' ; j++)
 		{
-			char a = (i * j);
-
-			_putchar('a');
+			_putchar(i * j);
 			_putchar(',');
 			_putchar(' ');
 		}
