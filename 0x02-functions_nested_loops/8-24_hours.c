@@ -9,6 +9,7 @@
 char jack_bauer(void)
 {
 	int i, j, k, l;
+	int a, b, c, d;
 
 	for (i = '0' ; i < '2' ; i++)
 	{
@@ -28,7 +29,6 @@ char jack_bauer(void)
 			}
 		}
 	}
-	int a, b, c, d; 
 	for (a = '2' ; a <= '2' ; a++)
 	{
 		for (b = '0' ; b <= 3 ; b++)
