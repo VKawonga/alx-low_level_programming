@@ -28,20 +28,20 @@ char jack_bauer(void)
 			}
 		}
 	}
-	return (0); 
-	for (i = '2' ; i <= '2' ; i++)
+	int a, b, c, d; 
+	for (a = '2' ; a <= '2' ; a++)
 	{
-		for (j = '0' ; j <= 3 ; j++)
+		for (b = '0' ; b <= 3 ; b++)
 		{
-			for (k = '0' ; k < '6' ; k++)
+			for (c = '0' ; c < '6' ; c++)
 			{
-				for (l = '0' ; l <= '9' ; l++)
+				for (d = '0' ; d <= '9' ; d++)
 				{
-					_putchar(i);
-					_putchar(j);
+					_putchar(a);
+					_putchar(b);
 					_putchar(':');
-					_putchar(k);
-					_putchar(l);
+					_putchar(c);
+					_putchar(d);
 					_putchar('\n');
 				}
 			}
