@@ -6,15 +6,16 @@
  *
  * Return: 0
  */
-char times_table(void)
+int times_table(void)
 {
-	char i, j;
+	int i, j;
 
 	for (i = '0' ; i <= '9' ; i++)
 	{
 		for (j = '0' ; j <= '9' ; j++)
 		{
-			_putchar(i * j);
+			int a = (i * j);
+			_putchar(a + '0');
 			_putchar(',');
 			_putchar(' ');
 		}
