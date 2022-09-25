@@ -28,6 +28,7 @@ char jack_bauer(void)
 			}
 		}
 	}
+
 	for (i = '2' ; i <= '2' ; i++)
 	{
 		for (j = '0' ; j <= 3 ; j++)
@@ -45,7 +46,6 @@ char jack_bauer(void)
 				}
 			}
 		}
-	return (0);
 	}
 	return (0);
 }
