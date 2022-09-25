@@ -15,3 +15,4 @@ int print_sign(int n);
 int _abs(int a);
 int print_last_digit(int a);
 char jack_bauer(void);
+char times_table(void);
