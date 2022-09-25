@@ -2,9 +2,8 @@
 
 /**
  * jack_bauer - prints every minute of the day of Jack Bauer
- *
- * Description - prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
- *
+ * Description - prints every minute of the day of Jack Bauer,
+ * starting from 00:00 to 23:59
  * Return: 0
  */
 char jack_bauer(void)
@@ -26,12 +25,10 @@ char jack_bauer(void)
 					_putchar(l);
 					_putchar('\n');
 				}
-				
 			}
 		}
-		return (0);
 	}
-
+	return (0);
 	for (i = '2' ; i < '3' ; i++)
 	{
 		for (j = '0' ; j <= 3 ; j++)
@@ -49,8 +46,6 @@ char jack_bauer(void)
 				}
 			}
 		}
-		return (0);
-
 	}
 	return (0);
 }
