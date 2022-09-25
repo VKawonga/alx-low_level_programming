@@ -9,7 +9,6 @@
 char jack_bauer(void)
 {
 	int i, j, k, l;
-	int a, b, c, d;
 
 	for (i = '0' ; i < '2' ; i++)
 	{
