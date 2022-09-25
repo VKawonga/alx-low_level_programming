@@ -52,5 +52,5 @@ char jack_bauer(void)
 		return (0);
 
 	}
-
+	return (0);
 }
